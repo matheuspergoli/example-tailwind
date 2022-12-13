@@ -1,15 +1,10 @@
-import Head from 'next/head'
+import React from 'react'
 
 function Home() {
 	return (
-		<>
-			<Head>
-				<title>Home</title>
-			</Head>
-			<main>
-				<h1>NextJS App</h1>
-			</main>
-		</>
+		<main>
+			<h1>NextJS App</h1>
+		</main>
 	)
 }
 
